@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
+const isGhPages = process.env.GITHUB_PAGES === "true";
+
 export default defineConfig({
-  base: "/soniatheriaultinfo/",
   plugins: [react()],
+  base: isGhPages ? "/soniatheriaultinfo/" : "/", // Vercel => '/'  |  GH Pages => '/soniatheriaultinfo/'
 });
 
