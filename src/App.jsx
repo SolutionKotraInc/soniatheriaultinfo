@@ -953,7 +953,7 @@ function Hero() {
               vraiment à cœur. Je suis là pour t’aider à te libérer des chaînes
               invisibles et retrouver ton pouvoir.
             </p>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 mt-5">
               <a
                 href="https://sonia-thriault.square.site/"
                 target="_blank"
@@ -970,13 +970,15 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="relative">
-            <div className="ml-40 w-64 overflow-hidden rounded-3xl shadow-xl ring-1 ring-black/5">
-              <img
-                src="/DSC00134.JPG"
-                alt="Portrait"
-                className="h-full w-full object-cover"
-              />
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="relative">
+              <div className="ml-40 w-64 overflow-hidden sm:item-start rounded-3xl shadow-xl ring-1 ring-black/5">
+                <img
+                  src="/DSC00134.JPG"
+                  alt="Portrait"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -1275,7 +1277,10 @@ function Contact() {
                 Consultations individuelles, à deux et soins énergétiques
                 intuitifs
               </li>
-              <li>Rendez‑vous sur place — Terrebonne, QC ou en ligne</li>
+              <li>
+                Rendez‑vous sur place — J6W 2J8, 552 rue Léon-Martel Terrebonne,
+                QC ou en ligne
+              </li>
             </ul>
           </div>
         </div>
