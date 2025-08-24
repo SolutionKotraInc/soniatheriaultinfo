@@ -90,7 +90,7 @@ Ce genre de femme qui marche la tête haute. Qui n’écrase jamais personne. Qu
 J'observe et je m’ajuste en conséquence, en restant toujours impeccable.
 
 Je t'aime, Sonia`,
-    image: "/jesuisgrande.avif",
+    image: "/portrait.jpg",
   },
   {
     title: "29 ans, 3 enfants et j’ai peur",
@@ -378,7 +378,7 @@ Je t’encourage bien évidemment à oser faire ce qui te fait vibrer toi aussi,
 Avec tout mon amour & respect,
 
 Sonia Thériault`,
-    image: "/encoremoi41ans.avif",
+    image: "/noel.jpg",
   },
   {
     title: "La dépendance affective",
@@ -690,7 +690,7 @@ Je t’aime même si tu n’y arrives pas tous les jours.
 
 Sonia`,
 
-    image: "/sebastien.avif",
+    image: "/New Project.jpg",
   },
   {
     title: "Je n’ai pas de maison coquette",
@@ -971,7 +971,7 @@ function Hero() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-square w-full overflow-hidden rounded-3xl shadow-xl ring-1 ring-black/5">
+            <div className="ml-40 w-64 overflow-hidden rounded-3xl shadow-xl ring-1 ring-black/5">
               <img
                 src="/DSC00134.JPG"
                 alt="Portrait"
@@ -1067,7 +1067,7 @@ function Booking() {
                   />
                   <div>
                     <p className="text-sm font-medium text-taupe">
-                      Membre 16‑6139 — ANN
+                      Membre 16‑6139 — ACNN
                     </p>
                     <a
                       href="https://www.acnn.ca/fr/repertoires/membres/"
@@ -1175,8 +1175,7 @@ function Temoignages() {
       <Container>
         <h2 className="text-3xl font-semibold text-taupe">Témoignages</h2>
         <p className="mt-3 text-dark">
-          Merci pour votre confiance — quelques mots qui me
-          touchehttps://www.facebook.com/profile.php?viewas=100000686899395&id=100088389657450nt.
+          Merci pour votre confiance — quelques mots qui me touche
         </p>
         <div className="mt-8 space-y-4">
           {TESTIMONIALS.map((item, idx) => {
@@ -1344,4 +1343,3 @@ export default function App() {
     </div>
   );
 }
-
