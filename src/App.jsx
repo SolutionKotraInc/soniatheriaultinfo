@@ -970,9 +970,9 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
             <div className="relative">
-              <div className="ml-40 w-64 overflow-hidden sm:item-start rounded-3xl shadow-xl ring-1 ring-black/5">
+              <div className="ml-0 md:ml-40 w-64 overflow-hidden rounded-3xl shadow-xl ring-1 ring-black/5">
                 <img
                   src="/DSC00134.JPG"
                   alt="Portrait"
